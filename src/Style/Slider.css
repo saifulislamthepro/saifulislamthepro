@@ -1,0 +1,27 @@
+.slider-container{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 30px;
+}
+
+.slider {
+    display: flex;
+    margin-top: 55px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.slide {
+    flex: 0 0 0 auto;
+}
+@media (min-width: 700px) {
+    .slider {
+        width: 60%;
+    }
+    
+}
+

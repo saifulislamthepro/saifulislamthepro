@@ -1,0 +1,35 @@
+nav a {
+    padding: 0 10px;
+   }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+
+  .header-container{
+    background-color: rgb(3, 42, 42);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 1000;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  }
+
+@media (max-width: 600px) {
+    header{
+        font-size: .8rem;
+    }
+    .header-container{
+      display: flex;
+      align-items: center;
+    }
+    nav {
+        display: none;
+      }
+}
+
+ 

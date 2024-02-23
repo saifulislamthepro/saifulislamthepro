@@ -1,0 +1,30 @@
+.Services-container{
+    margin: 50px 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Cards {
+    display: flex;
+    width: 100%;
+}
+
+.Card{
+    background-color: rgb(5, 84, 84);
+    border-radius: 10px;
+    width: 33.33%;
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+@media (max-width:600px) {
+    .Cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Card {
+        width: 90%;
+    }
+}

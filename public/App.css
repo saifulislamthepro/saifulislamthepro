@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    background-color: rgb(6, 35, 35);
+    color: aliceblue;
+    font-size: 1rem;
+  }
+ 
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+  }
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
