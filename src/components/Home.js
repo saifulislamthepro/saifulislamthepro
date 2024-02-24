@@ -4,12 +4,13 @@ import Contact from './Contact';
 import Services from "./Services";
 import Lineanimate from "./Lineanimate";
 import Slider from "./Slider";
+import Animatedtext from"./AnimatedText";
 
 const Home = () => {
     return(
         <div>
+            <Animatedtext/>
             <Slider/>
-            <Lineanimate/>
             <About/>
             <Lineanimate/>
             <Services/>

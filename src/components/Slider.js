@@ -16,7 +16,7 @@ const Slider = () => {
     useEffect(()=>{
         const interval = setInterval(()=>{
             setCurrentBanner((prevBanner) => (prevBanner + 1) % banners.length);
-        }, 3000);
+        }, 4000);
 
         return() => clearInterval(interval);
     }, []);

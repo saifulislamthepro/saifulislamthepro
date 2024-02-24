@@ -11,7 +11,12 @@ const About = () => {
           
           <div className="about-content">
             <h2>About me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur lectus nec elit consequat, at ultrices mauris molestie. Integer dapibus tristique risus, id iaculis leo tincidunt non. Quisque sit amet tortor ac magna volutpat convallis. Duis malesuada congue enim, a efficitur lorem congue in. Nulla facilisi.</p>
+            <p>I have many skills and it makes me feel confident, So I want to learn more
+              .I enjoy learning constantly new staffs so it building my knowladge.
+              I will help anyone who wants to build there career in online platforms.
+              So lets get started to explore the e world.
+
+            </p>
           </div>
         </div>
       </section>

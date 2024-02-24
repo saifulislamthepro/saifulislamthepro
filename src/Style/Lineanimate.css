@@ -12,13 +12,14 @@
 .line {
     width: 200px;
     height: 3px;
-    background-color: #cdfcf4;
+    background-color: #ffffff;
+    border-radius: 1px;
 }
 
 .circle {
-    width: 20px;
-    height: 20px;
-    border: 3px solid white ;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #ffffff ;
     border-radius: 50%;
     background-color: #023e43;
     transform: translateX(-100px);
@@ -32,21 +33,21 @@
 }
 
 .circle-still{
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
-    background-color: #b4ebf0;
+    background-color: #edc32a;
 }
 
 .still-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateY(-4px);
+    transform: translateY(7px);
 }
 
 .right{
-    transform: translateX(-125px);
+    transform: translateX(-115px);
 }
 
 .left{

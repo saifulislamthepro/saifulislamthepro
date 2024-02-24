@@ -7,19 +7,27 @@
 }
 .profile-img img{
     border-radius: 50%;
-    width: 200px;
-    border: 10px solid rgb(5, 84, 84);
+    width: 150px;
+    border: 10px solid rgb(1, 36, 36);
 }
 .about-content {
     background-color: rgb(5, 84, 84);
     padding: 1rem 2rem;
     border-radius: 20px;
-    text-align: center;
+    text-align: left;
     padding-top: 100px;
+}
+.about-content p {
+    margin-top: 20px;
+    text-align: left;
+}
+.about-content h2{
+    margin-top: 10px;
+    color: rgb(235, 158, 58);
 }
 .container {
     margin-top: -30px;
     padding: 0 2rem;
-    height: fit-content;
+    padding: 0 15%;
 }
 

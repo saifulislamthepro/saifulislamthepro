@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <div className="Contact-container">
-      <h2>Contact me via email</h2>
+      <h2>Send me a message</h2>
     <div className="Input-container">
     <form ref={form} onSubmit={sendEmail}>
       <input type="text" name="user_name" placeholder="Name"/>

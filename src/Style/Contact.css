@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .Input-container input {
@@ -13,7 +13,7 @@
 }
 
 .Input-container input {
-    width: 400px;
+    width: 300px;
     margin-top: 10px;
     height: 30px;
     border-radius: 5px;
@@ -21,7 +21,7 @@
 }
 
 .Input-container textarea{
-    width: 400px;
+    width: 300px;
     height: 100px;
     margin-top: 10px;
     border-radius: 10px;
