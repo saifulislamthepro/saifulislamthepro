@@ -5,7 +5,7 @@ import "../Style/Animatedtext.css";
 const Animatedtext = () => {   
 
     return(
-        
+        <div className="flex-container">
         <div className="animated-text-container">
             <div>Hello, I'm</div>
             <h1>Saiful Islam</h1>
@@ -17,6 +17,7 @@ const Animatedtext = () => {
                 </div>
                 <div className="cursor"></div>
             </div>
+        </div>
         </div>
         
     )

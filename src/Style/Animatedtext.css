@@ -1,6 +1,6 @@
 .animated-text-container{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     margin-bottom: -50px;
     margin-top: 60px;
@@ -69,3 +69,8 @@
 }
 
 
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
