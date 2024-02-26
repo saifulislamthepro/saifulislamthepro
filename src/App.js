@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
-import {speedInsights} from '@vercel/speed-insights/react';
+import {Analytics} from "@vercel/analytics/react";
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
@@ -11,8 +11,9 @@ import Footer from './components/Footer';
 function App() {
   return (  
      
-      <><Header />
-      <speedInsights/>
+      <>
+      <Analytics/>
+      <Header />
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
